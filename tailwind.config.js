@@ -10,7 +10,14 @@ module.exports = {
       spacing: {
         '3vh': '3vh',
         '97vh': '97vh',
-        '200vh': '200vh'
+        '200vh': '200vh',
+        '125px': '125px'
+      },
+      gridTemplateColumns: {
+        'three-cols': 'repeat(3, 30%)'
+      },
+      gridTemplateRows: {
+        'two-rows': 'repeat (2, 30%)'
       }
     },
   },
