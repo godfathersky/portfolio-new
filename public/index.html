@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/public/styles.css">
+    <script src="https://kit.fontawesome.com/093e9ed2f3.js" crossorigin="anonymous"></script>
     <title>Robert Zima - Frontend Dev</title>
 </head>
 <body>
     <div id="root" class="overflow-x-hidden flex flex-col">
         <section id="section-1" class="w-screen h-screen flex flex-col justify-evenly items-center bg-background-color-1">
             <div class="w-screen h-3vh flex flex-row justify-end items-center pr-20">
-                <span class="mr-2">EN</span>
-                <span>PL</span>
+                <span class="uppercase mr-2"><a href="#">en</a></span>
+                <span class="uppercase"><a href="#">pl</a></span>
             </div>
             <div class="w-screen h-97vh flex flex-col justify-center items-center">
                 <span class="text-7xl font-bold tracking-wide">Robert Zima</span>
                 <span class="text-3xl mt-6 tracking-wide">Frontend developer</span>
-                <button class="w-56 h-12 mt-12 bg-background-color-2 text-white uppercase">Reach out</button>
+                <button class="w-56 h-12 mt-12 bg-background-color-2 border hover:bg-background-color-1 hover:text-black hover:border-black transition duration-300 ease-in-out text-white uppercase">Reach out</button>
             </div>
         </section>
         <section id="section-2" class="w-screen h-screen flex flex-row justify-evenly items-center bg-background-color-2">
@@ -31,7 +32,7 @@
                 <span class="w-3/6 text-5xl font-bold">Revelant Experience</span>
             </div>
             <div class="w-4/6 flex flex-col mt-16">
-                <div class="flex flex-row just mb-16">
+                <div class="flex flex-row mb-16">
                     <div class="w-1/12">
                         <span class="font-bold">2024</span>
                     </div>
@@ -202,7 +203,7 @@
                 <span class="text-5xl font-bold">Past projects</span>
             </div>
             <div class="w-screen h-5/6 grid grid-cols-three-cols gap-20 flex justify-center px-32 py-16">
-                <div class="w-full h-auto">
+                <div class="w-full h-auto hover:scale-110 transition duration-500 ease-in-out">
                     <div class="w-full h-4/6 bg-cover bg-no-repeat bg-center" style="background-image: url(/public/img/mountains-8272227_640.jpg);"></div>
                     <div class="w-full h-2/6 flex flex-col justify-start mt-2">
                         <span class="font-bold">Portfolio website Test Page</span>
@@ -246,7 +247,29 @@
                 </div>
             </div>
         </section>
-        <section id="section-7">
+        <section id="section-7" class="w-screen h-screen flex flex-col justify-between bg-background-color-1 text-black">
+            <div class="w-2/6 h-1/6 flex flex-row justify-start mt-28 pl-32">
+                <span class="w-full text-5xl">Connect with me</span>
+            </div>
+            <div class="w-2/6 h-2/6 flex flex-col justify-start pl-32">
+                <span class="text-5xl font-bold mb-8">Robert Zima</span>
+                <span class="text-3xl font-bold">zimarobert0@gmail.com</span>
+                <span class="text-3xl font-bold mb-8">+48 999 888 777</span>
+                <span class="text-3xl font-bold mb-12">Find my resume <a href="#" class="underline">here</a></span>
+            </div>
+            <div class="w-2/6 h-2/6 flex flex-col justify-start pl-32">
+                <span class="text-2xl font-bold uppercase mb-6">Connect with me</span>
+                <div class="w-5/6 flex flex-row justify-between">
+                    <a href="#"><i class="fa-brands fa-instagram fa-2xl" style="color: #000000;"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter fa-2xl" style="color: #000000;"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook fa-2xl" style="color: #000000;"></i></a>
+                    <a href="#"><i class="fa-brands fa-discord fa-2xl" style="color: #000000;"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin fa-2xl" style="color: #000000;"></i></a>
+                </div>
+            </div>
+            <!-- <div class="w-screen h-6 flex flex-col justify-center items-center bg-background-color-2 text-white">
+                <span>Created by Robert Zima, 2023</span>
+            </div> -->
         </section>
     </div>
 </body>
