@@ -17,56 +17,74 @@
             <div class="w-screen h-97vh flex flex-col justify-center items-center">
                 <span class="text-7xl font-bold tracking-wide">Robert Zima</span>
                 <span class="text-3xl mt-6 tracking-wide">Junior Frontend developer</span>
-                <button class="w-56 h-12 mt-12 bg-background-color-2 border hover:bg-background-color-1 hover:text-black hover:border-black transition duration-300 ease-in-out text-white uppercase"><a href="#section-2">Zobacz więcej</a></button>
+                <a href="#section-2">
+                    <button class="w-56 h-12 mt-12 bg-background-color-2 border hover:bg-background-color-1 hover:text-black hover:border-black transition duration-300 ease-in-out text-white uppercase">Zobacz więcej</button>
+                </a>
             </div>
         </section>
-        <section id="section-2" class="w-screen h-screen flex flex-row justify-evenly items-center bg-background-color-2">
-            <div class="w-2/6 flex flex-col">
-                <span class="text-5xl text-white mb-6 font-bold">O mnie</span>
-                <span class="text-white text-justify">Jestem absolwentem kierunku Informatyka na Akademii im. Jakuba z Paradyża w Gorzowie Wielkopolskim oraz początkującym frontend developer'em bez doświadczenia komercyjnego. Aktualnie poszukuję miejsca w którym będę mógł rozwijać swoje umięjetności programistyczne w dalszym stopniu. Na codzień obcuję z następującymi językami programowania: JavaScript, React.js oraz C#, narzędziami: Git, Figma i Postman, a także bazami danych: MS SQL, MySQL. Posiadam również umiejętności rozwiązywania problemów, analitycznego myślenia oraz organizacji pracy. W wolnym czasie zgłębiam różnego rodzaju czasopisma, opracowania, książki oraz blogi związane z branżą IT i tworzeniem aplikacji internetowych.</span>
+        <section id="section-2" class="w-screen h-screen flex flex-col justify-around items-center bg-background-color-2">
+            <a href="#section-1">
+                <button class="w-56 h-12 mt-12 bg-background-color-2 border hover:bg-background-color-1 hover:text-black hover:border-black transition duration-300 ease-in-out text-white uppercase">Powrót</button>
+            </a>
+            <div class="flex flex-row h-5/6 justify-evenly">
+                <div class="w-2/6 flex flex-col justify-center">
+                    <span class="text-5xl text-white mb-6 font-bold">O mnie</span>
+                    <span class="text-white text-justify">Jestem absolwentem kierunku Informatyka na Akademii im. Jakuba z Paradyża w Gorzowie Wielkopolskim oraz początkującym frontend developer'em bez doświadczenia komercyjnego. Aktualnie poszukuję miejsca w którym będę mógł rozwijać swoje umięjetności programistyczne w dalszym stopniu. Na codzień obcuję z następującymi językami programowania: JavaScript, React.js oraz C#, narzędziami: Git, Figma i Postman, a także bazami danych: MS SQL, MySQL. Posiadam również umiejętności rozwiązywania problemów, analitycznego myślenia oraz organizacji pracy. W wolnym czasie zgłębiam różnego rodzaju czasopisma, opracowania, książki oraz blogi związane z branżą IT i tworzeniem aplikacji internetowych.</span>
+                </div>
+                <img class="w-1/5" src="./img/person-photo.svg" alt="person-photo">
             </div>
-            <img class="w-1/5" src="./img/person-photo.svg" alt="person-photo">
+            <a href="#section-3">
+                <button class="w-56 h-12 mb-12 bg-background-color-2 border hover:bg-background-color-1 hover:text-black hover:border-black transition duration-300 ease-in-out text-white uppercase">Zobacz więcej</button>
+            </a>
         </section>
-        <section id="section-3" class="w-screen h-auto flex flex-row bg-background-color-1 text-black">
-            <div class="w-2/6 flex flex-row justify-start mt-16 pl-32">
-                <span class="w-3/6 text-5xl font-bold">Doświadczenie zawodowe</span>
-            </div>
-            <div class="w-4/6 flex flex-col mt-16">
-                <div class="flex flex-row mb-16">
-                    <div class="w-1/12">
-                        <span class="font-bold">2022/2023</span>
+        <section id="section-3" class="w-screen h-screen flex flex-col justify-around items-center bg-background-color-1 text-black">
+            <a href="#section-2">
+                <button class="w-56 h-12 mt-12 bg-background-color-2 border hover:bg-background-color-1 hover:text-black hover:border-black transition duration-300 ease-in-out text-white uppercase">Powrót</button>
+            </a>
+            <div class="flex flex-row h-5/6">
+                <div class="w-2/6 flex flex-row justify-start mt-16 pl-32">
+                    <span class="w-3/6 text-5xl font-bold">Doświadczenie zawodowe</span>
+                </div>
+                <div class="w-4/6 flex flex-col mt-16">
+                    <div class="flex flex-row mb-16">
+                        <div class="w-1/12">
+                            <span class="font-bold">2022/2023</span>
+                        </div>
+                        <div class="w-9/12 flex flex-col">
+                            <span class="font-bold uppercase">Praktyka - Junior Frontend Developer</span>
+                            <span class="italic mb-3 underline"><a href="https://spacenext.eu">SpaceNext</a></span>
+                            <ul class="list-disc">
+                                <span class="font-bold">Wykonywane zadania:</span>
+                                <li class="text-justify ml-5">Tworzenie wizualizacji aplikacji w narzędziu Figma</li>
+                                <li class="text-justify ml-5">Tworzenie aplikacji przy wykorzystaniu podstawowych technologii HTML, CSS, Tailwind CSS, JavaScript oraz C#.</li>
+                                <li class="text-justify ml-5">Tworzenie interfejsów API.</li>
+                                <li class="text-justify ml-5">Testowanie stworzonych punktów końcowych za pomocą narzędzia Postman.</li>
+                                <li class="text-justify ml-5">Dostosowanie aplikacji zgodnie z zasadami RWD.</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="w-9/12 flex flex-col">
-                        <span class="font-bold uppercase">Praktyka - Junior Frontend Developer</span>
-                        <span class="italic mb-3 underline"><a href="https://spacenext.eu">SpaceNext</a></span>
-                        <ul class="list-disc">
-                            <span class="font-bold">Wykonywane zadania:</span>
-                            <li class="text-justify ml-5">Tworzenie wizualizacji aplikacji w narzędziu Figma</li>
-                            <li class="text-justify ml-5">Tworzenie aplikacji przy wykorzystaniu podstawowych technologii HTML, CSS, Tailwind CSS, JavaScript oraz C#.</li>
-                            <li class="text-justify ml-5">Tworzenie interfejsów API.</li>
-                            <li class="text-justify ml-5">Testowanie stworzonych punktów końcowych za pomocą narzędzia Postman.</li>
-                            <li class="text-justify ml-5">Dostosowanie aplikacji zgodnie z zasadami RWD.</li>
-                        </ul>
+                    <div class="flex flex-row mb-16">
+                        <div class="w-1/12">
+                            <span class="font-bold">2021</span>
+                        </div>
+                        <div class="w-9/12 flex flex-col">
+                            <span class="font-bold uppercase">Praktyka - Junior Frontend Developer</span>
+                            <span class="italic mb-3 underline"><a href="https://xopero.com/pl/">Xopero Software</a></span>
+                            <ul class="list-disc">
+                                <span class="font-bold">Wykonywane zadania:</span>
+                                <li class="text-justify ml-5">Tworzenie wizualizacji aplikacji w narzędziu Figma.</li>
+                                <li class="text-justify ml-5">Tworzenie aplikacji przy wykorzystaniu podstawowych technologii HTML, CSS, JavaScript na podstawie dostarczonego projektu wizualnego.</li>
+                                <li class="text-justify ml-5">Dostosowanie aplikacji zgodnie z zasadami RWD.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="flex flex-row mb-16">
-                    <div class="w-1/12">
-                        <span class="font-bold">2021</span>
-                    </div>
-                    <div class="w-9/12 flex flex-col">
-                        <span class="font-bold uppercase">Praktyka - Junior Frontend Developer</span>
-                        <span class="italic mb-3 underline"><a href="https://xopero.com/pl/">Xopero Software</a></span>
-                        <ul class="list-disc">
-                            <span class="font-bold">Wykonywane zadania:</span>
-                            <li class="text-justify ml-5">Tworzenie wizualizacji aplikacji w narzędziu Figma.</li>
-                            <li class="text-justify ml-5">Tworzenie aplikacji przy wykorzystaniu podstawowych technologii HTML, CSS, JavaScript na podstawie dostarczonego projektu wizualnego.</li>
-                            <li class="text-justify ml-5">Dostosowanie aplikacji zgodnie z zasadami RWD.</li>
-                        </ul>
-                    </div>
-                </div>
             </div>
+            <a href="#section-4">
+                <button class="w-56 h-12 mb-12 bg-background-color-2 border hover:bg-background-color-1 hover:text-black hover:border-black transition duration-300 ease-in-out text-white uppercase">Zobacz więcej</button>
+            </a>
         </section>
-        <section id="section-4" class="w-screen h-auto flex flex-row bg-background-color-2 text-white">
+        <section id="section-4" class="w-screen h-screen flex flex-row bg-background-color-2 text-white">
             <div class="w-2/6 flex flex-row justify-start mt-16 pl-32">
                 <span class="w-4/6 text-5xl font-bold">Wykształcenie, certyfikaty i inne prace</span>
             </div>
@@ -119,16 +137,6 @@
                         <span class="font-bold uppercase">HTML Fundamentals course</span>
                         <span class="italic mb-3 underline"><a href="https://www.sololearn.com/en/">Sololearn</a></span>
                         <span class="text-justify">W styczniu 2018 roku ukończyłem darmowy kurs z HTML na platformie Sololearn.</span>
-                    </div>
-                </div>
-                <div class="flex flex-row mb-12">
-                    <div class="w-1/12">
-                        <span class="font-bold">2019/2020</span>
-                    </div>
-                    <div class="w-9/12 flex flex-col">
-                        <span class="font-bold uppercase">Pracownik produkcji</span>
-                        <span class="italic mb-3 underline"><a href="https://www.borne-furniture.com">Borne Furniture</a></span>
-                        <span class="text-justify">Na przełomie lat 2019/2020 pracowałem w firmie będącej podwykonywcą przedsiębiorstwa Ikea. Wykonałem zadanie przewidziane na stanowisku pracownika produkcji oraz samodzielnego operatora maszyny.</span>
                     </div>
                 </div>
             </div>
@@ -305,49 +313,59 @@
                 <span class="text-5xl font-bold">Wykonane projekty</span>
             </div>
             <div class="w-screen h-5/6 grid grid-cols-three-cols gap-20 justify-center px-32 py-16">
-                <div class="w-full h-auto hover:scale-110 transition duration-500 ease-in-out">
-                    <a href="https://github.com/godfathersky/national-parks" target="_blank">
-                        <div class="w-full h-4/6 bg-cover bg-no-repeat bg-center" style="background-image: url(./img/mountains-8272227_640.jpg);"></div>
+                <div class="w-full h-auto p-4 flex flex-col justify-center rounded border border-black transform hover:scale-110 hover:border-4 hover:border-white hover:rounded-xl transition duration-350 ease-in-out">
+                    <a class="w-full h-full" href="https://github.com/godfathersky/national-parks" target="_blank">
+                        <div class="w-full h-4/6 bg-cover bg-no-repeat bg-center" style="background-image: url(./img/national-parks.png);"></div>
+                        <div class="w-full h-2/6 flex flex-col justify-center">
+                            <span class="font-bold">Polskie Parki Narodowe</span>
+                            <span>2024</span>
+                        </div>
                     </a>
-                    <div class="w-full h-2/6 flex flex-col justify-start mt-2">
-                        <span class="font-bold">Polskie Parki Narodowe</span>
-                        <span>2024</span>
-                    </div>
                 </div>
-                <div class="w-full h-auto">
-                    <div class="w-full h-4/6 bg-cover bg-no-repeat bg-center" style="background-image: url(./img/mountains-8272227_640.jpg);"></div>
-                    <div class="w-full h-2/6 flex flex-col justify-start mt-2">
-                        <span class="font-bold">Portfolio website Test Page</span>
-                        <span>2024</span>
-                    </div>
+                <div class="w-full h-auto p-4 flex flex-col justify-center rounded border border-black transform hover:scale-110 hover:border-4 hover:border-white hover:rounded-xl transition duration-350 ease-in-out">
+                    <a class="w-full h-full" href="https://github.com/godfathersky/national-parks" target="_blank">
+                        <div class="w-full h-4/6 bg-cover bg-no-repeat bg-center" style="background-image: url(./img/national-parks.png);"></div>
+                        <div class="w-full h-2/6 flex flex-col justify-center">
+                            <span class="font-bold">Polskie Parki Narodowe</span>
+                            <span>2024</span>
+                        </div>
+                    </a>
                 </div>
-                <div class="w-full h-auto">
-                    <div class="w-full h-4/6 bg-cover bg-no-repeat bg-center" style="background-image: url(./img/mountains-8272227_640.jpg);"></div>
-                    <div class="w-full h-2/6 flex flex-col justify-start mt-2">
-                        <span class="font-bold">Portfolio website Test Page</span>
-                        <span>2024</span>
-                    </div>
+                <div class="w-full h-auto p-4 flex flex-col justify-center rounded border border-black transform hover:scale-110 hover:border-4 hover:border-white hover:rounded-xl transition duration-350 ease-in-out">
+                    <a class="w-full h-full" href="https://github.com/godfathersky/national-parks" target="_blank">
+                        <div class="w-full h-4/6 bg-cover bg-no-repeat bg-center" style="background-image: url(./img/national-parks.png);"></div>
+                        <div class="w-full h-2/6 flex flex-col justify-center">
+                            <span class="font-bold">Polskie Parki Narodowe</span>
+                            <span>2024</span>
+                        </div>
+                    </a>
                 </div>
-                <div class="w-full h-auto">
-                    <div class="w-full h-4/6 bg-cover bg-no-repeat bg-center" style="background-image: url(./img/mountains-8272227_640.jpg);"></div>
-                    <div class="w-full h-2/6 flex flex-col justify-start mt-2">
-                        <span class="font-bold">Portfolio website Test Page</span>
-                        <span>2024</span>
-                    </div>
+                <div class="w-full h-auto p-4 flex flex-col justify-center rounded border border-black transform hover:scale-110 hover:border-4 hover:border-white hover:rounded-xl transition duration-350 ease-in-out">
+                    <a class="w-full h-full" href="https://github.com/godfathersky/national-parks" target="_blank">
+                        <div class="w-full h-4/6 bg-cover bg-no-repeat bg-center" style="background-image: url(./img/national-parks.png);"></div>
+                        <div class="w-full h-2/6 flex flex-col justify-center">
+                            <span class="font-bold">Polskie Parki Narodowe</span>
+                            <span>2024</span>
+                        </div>
+                    </a>
                 </div>
-                <div class="w-full h-auto">
-                    <div class="w-full h-4/6 bg-cover bg-no-repeat bg-center" style="background-image: url(./img/mountains-8272227_640.jpg);"></div>
-                    <div class="w-full h-2/6 flex flex-col justify-start mt-2">
-                        <span class="font-bold">Portfolio website Test Page</span>
-                        <span>2024</span>
-                    </div>
+                <div class="w-full h-auto p-4 flex flex-col justify-center rounded border border-black transform hover:scale-110 hover:border-4 hover:border-white hover:rounded-xl transition duration-350 ease-in-out">
+                    <a class="w-full h-full" href="https://github.com/godfathersky/national-parks" target="_blank">
+                        <div class="w-full h-4/6 bg-cover bg-no-repeat bg-center" style="background-image: url(./img/national-parks.png);"></div>
+                        <div class="w-full h-2/6 flex flex-col justify-center">
+                            <span class="font-bold">Polskie Parki Narodowe</span>
+                            <span>2024</span>
+                        </div>
+                    </a>
                 </div>
-                <div class="w-full h-auto">
-                    <div class="w-full h-4/6 bg-cover bg-no-repeat bg-center" style="background-image: url(./img/mountains-8272227_640.jpg);"></div>
-                    <div class="w-full h-2/6 flex flex-col justify-start mt-2">
-                        <span class="font-bold">Portfolio website Test Page</span>
-                        <span>2024</span>
-                    </div>
+                <div class="w-full h-auto p-4 flex flex-col justify-center rounded border border-black transform hover:scale-110 hover:border-4 hover:border-white hover:rounded-xl transition duration-350 ease-in-out">
+                    <a class="w-full h-full" href="https://github.com/godfathersky/national-parks" target="_blank">
+                        <div class="w-full h-4/6 bg-cover bg-no-repeat bg-center" style="background-image: url(./img/national-parks.png);"></div>
+                        <div class="w-full h-2/6 flex flex-col justify-center">
+                            <span class="font-bold">Polskie Parki Narodowe</span>
+                            <span>2024</span>
+                        </div>
+                    </a>
                 </div>
             </div>
         </section>
