@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css" type="text/css">
     <script src="https://kit.fontawesome.com/093e9ed2f3.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
     <title>Robert Zima - Frontend Dev</title>
 </head>
 <body>
@@ -24,7 +25,7 @@
         </section>
         <section id="section-2" class="w-screen h-screen flex flex-col justify-around items-center bg-background-color-2">
             <a href="#section-1">
-                <button class="w-56 h-12 mt-12 bg-background-color-2 border hover:bg-background-color-1 hover:text-black hover:border-black transition duration-300 ease-in-out text-white uppercase">Powrót</button>
+                <button class="w-56 h-12 mt-12 bg-background-color-2 border hover:bg-background-color-1 hover:text-black hover:border-black transition duration-300 ease-in-out text-white uppercase"><i class="fa-solid fa-angles-up"></i></button>
             </a>
             <div class="flex flex-row h-5/6 justify-evenly">
                 <div class="w-2/6 flex flex-col justify-center">
@@ -34,18 +35,18 @@
                 <img class="w-1/5" src="./img/person-photo.svg" alt="person-photo">
             </div>
             <a href="#section-3">
-                <button class="w-56 h-12 mb-12 bg-background-color-2 border hover:bg-background-color-1 hover:text-black hover:border-black transition duration-300 ease-in-out text-white uppercase">Zobacz więcej</button>
+                <button class="w-56 h-12 mb-12 bg-background-color-2 border hover:bg-background-color-1 hover:text-black hover:border-black transition duration-300 ease-in-out text-white uppercase"><i class="fa-solid fa-angles-down"></i></button>
             </a>
         </section>
         <section id="section-3" class="w-screen h-screen flex flex-col justify-around items-center bg-background-color-1 text-black">
             <a href="#section-2">
-                <button class="w-56 h-12 mt-12 bg-background-color-2 border hover:bg-background-color-1 hover:text-black hover:border-black transition duration-300 ease-in-out text-white uppercase">Powrót</button>
+                <button class="w-56 h-12 mt-12 bg-background-color-2 border hover:bg-background-color-1 hover:text-black hover:border-black transition duration-300 ease-in-out text-white uppercase"><i class="fa-solid fa-angles-up"></i></button>
             </a>
-            <div class="flex flex-row h-5/6">
-                <div class="w-2/6 flex flex-row justify-start mt-16 pl-32">
+            <div class="flex flex-row h-5/6 justify-center">
+                <div class="w-2/6 flex flex-row justify-start mt-32 pl-32">
                     <span class="w-3/6 text-5xl font-bold">Doświadczenie zawodowe</span>
                 </div>
-                <div class="w-4/6 flex flex-col mt-16">
+                <div class="w-4/6 flex flex-col justify-center mt-16">
                     <div class="flex flex-row mb-16">
                         <div class="w-1/12">
                             <span class="font-bold">2022/2023</span>
@@ -81,199 +82,209 @@
                 </div>
             </div>
             <a href="#section-4">
-                <button class="w-56 h-12 mb-12 bg-background-color-2 border hover:bg-background-color-1 hover:text-black hover:border-black transition duration-300 ease-in-out text-white uppercase">Zobacz więcej</button>
+                <button class="w-56 h-12 mb-12 bg-background-color-2 border hover:bg-background-color-1 hover:text-black hover:border-black transition duration-300 ease-in-out text-white uppercase"><i class="fa-solid fa-angles-down"></i></button>
             </a>
         </section>
-        <section id="section-4" class="w-screen h-screen flex flex-row bg-background-color-2 text-white">
-            <div class="w-2/6 flex flex-row justify-start mt-16 pl-32">
-                <span class="w-4/6 text-5xl font-bold">Wykształcenie, certyfikaty i inne prace</span>
-            </div>
-            <div class="w-4/6 flex flex-col mt-16">
-                <div class="flex flex-row mb-12">
-                    <div class="w-1/12">
-                        <span class="font-bold">2024</span>
-                    </div>
-                    <div class="w-9/12 flex flex-col">
-                        <span class="font-bold uppercase">Inżynier, Informatyka</span>
-                        <span class="italic mb-3 underline"><a href="https://ajp.edu.pl">Akademia im. Jakuba z Paradyża w Gorzowie Wlkp.</a></span>
-                        <span class="text-justify">Na uczelni studiowałem w latach 2020-2024. W 2024 ukończyłem studia inżynierskie w Akademii im. Jakuba z Paradyża w Gorzowie Wielkopolskim ze średnią ocen 4.64 oraz obroniłem pracę dyplomową na ocenę 5.</span>
-                    </div>
+        <section id="section-4" class="w-screen h-screen flex flex-col justify-around items-center bg-background-color-2 text-white">
+            <a href="#section-3">
+                <button class="w-56 h-12 mt-12 bg-background-color-2 border hover:bg-background-color-1 hover:text-black hover:border-black transition duration-300 ease-in-out text-white uppercase"><i class="fa-solid fa-angles-up"></i></button>
+            </a>
+            <div class="flex flex-row">
+                <div class="w-2/6 flex flex-row justify-start mt-16 pl-32">
+                    <span class="w-4/6 text-5xl font-bold">Wykształcenie, certyfikaty i inne prace</span>
                 </div>
-                <div class="flex flex-row mb-12">
-                    <div class="w-1/12">
-                        <span class="font-bold">2019</span>
+                <div class="w-4/6 flex flex-col mt-16">
+                    <div class="flex flex-row mb-12">
+                        <div class="w-1/12">
+                            <span class="font-bold">2024</span>
+                        </div>
+                        <div class="w-9/12 flex flex-col">
+                            <span class="font-bold uppercase">Inżynier, Informatyka</span>
+                            <span class="italic mb-3 underline"><a href="https://ajp.edu.pl">Akademia im. Jakuba z Paradyża w Gorzowie Wlkp.</a></span>
+                            <span class="text-justify">Na uczelni studiowałem w latach 2020-2024. W 2024 ukończyłem studia inżynierskie w Akademii im. Jakuba z Paradyża w Gorzowie Wielkopolskim ze średnią ocen 4.64 oraz obroniłem pracę dyplomową na ocenę 5.</span>
+                        </div>
                     </div>
-                    <div class="w-9/12 flex flex-col">
-                        <span class="font-bold uppercase">Technik, Informatyka</span>
-                        <span class="italic mb-3 underline"><a href="https://zspnr1barlinek.edupage.org">Zespół Szkół i Placówek Oświatowych im. kpt. hm. Andrzeja Romockiego "Morro"</a></span>
-                        <span class="text-justify">Do Technikum w Zespole Szkół i Placówek Oświatowych uczęszczałem w latach 2015-2019. Przez okres edukacji w szkole średniej uzyskałem kwalifikacje E12 (Montaż i eksploatacja komputerów osobistych oraz urządzeń peryferyjnych), E13 (Projektowanie lokalnych sieci komputerowych i administrowanie sieciami) oraz E14 (Tworzenie aplikacji internetowych i baz danych oraz administrowanie bazami).</span>
+                    <div class="flex flex-row mb-12">
+                        <div class="w-1/12">
+                            <span class="font-bold">2019</span>
+                        </div>
+                        <div class="w-9/12 flex flex-col">
+                            <span class="font-bold uppercase">Technik, Informatyka</span>
+                            <span class="italic mb-3 underline"><a href="https://zspnr1barlinek.edupage.org">Zespół Szkół i Placówek Oświatowych im. kpt. hm. Andrzeja Romockiego "Morro"</a></span>
+                            <span class="text-justify">Do Technikum w Zespole Szkół i Placówek Oświatowych uczęszczałem w latach 2015-2019. Przez okres edukacji w szkole średniej uzyskałem kwalifikacje E12 (Montaż i eksploatacja komputerów osobistych oraz urządzeń peryferyjnych), E13 (Projektowanie lokalnych sieci komputerowych i administrowanie sieciami) oraz E14 (Tworzenie aplikacji internetowych i baz danych oraz administrowanie bazami).</span>
+                        </div>
                     </div>
-                </div>
-                <div class="flex flex-row mb-12">
-                    <div class="w-1/12">
-                        <span class="font-bold">2022</span>
+                    <div class="flex flex-row mb-12">
+                        <div class="w-1/12">
+                            <span class="font-bold">2019</span>
+                        </div>
+                        <div class="w-9/12 flex flex-col">
+                            <span class="font-bold uppercase">CSS Fundamentals course</span>
+                            <span class="italic mb-3 underline"><a href="https://www.sololearn.com/en/">Sololearn</a></span>
+                            <span class="text-justify">W lipcu 2019 roku ukończyłem darmowy kurs z CSS na platformie Sololearn.</span>
+                        </div>
                     </div>
-                    <div class="w-9/12 flex flex-col">
-                        <span class="font-bold uppercase">Szkolenie - Design Thinking</span>
-                        <span class="italic mb-3 underline"><a href="https://www.blueshift.pl">Blueshift Sp. z o.o.</a></span>
-                        <span class="text-justify">W styczniu 2022 roku w ramach uczelnianego projektu odbyłem szkolenie z Design Thinking, czyli metody projektowania rozwiązań, usług, produktów lub procesów. Szkolenie jest poświadczone certyfikatem.</span>
-                    </div>
-                </div>
-                <div class="flex flex-row mb-12">
-                    <div class="w-1/12">
-                        <span class="font-bold">2019</span>
-                    </div>
-                    <div class="w-9/12 flex flex-col">
-                        <span class="font-bold uppercase">CSS Fundamentals course</span>
-                        <span class="italic mb-3 underline"><a href="https://www.sololearn.com/en/">Sololearn</a></span>
-                        <span class="text-justify">W lipcu 2019 roku ukończyłem darmowy kurs z CSS na platformie Sololearn.</span>
-                    </div>
-                </div>
-                <div class="flex flex-row mb-12">
-                    <div class="w-1/12">
-                        <span class="font-bold">2018</span>
-                    </div>
-                    <div class="w-9/12 flex flex-col">
-                        <span class="font-bold uppercase">HTML Fundamentals course</span>
-                        <span class="italic mb-3 underline"><a href="https://www.sololearn.com/en/">Sololearn</a></span>
-                        <span class="text-justify">W styczniu 2018 roku ukończyłem darmowy kurs z HTML na platformie Sololearn.</span>
+                    <div class="flex flex-row mb-12">
+                        <div class="w-1/12">
+                            <span class="font-bold">2018</span>
+                        </div>
+                        <div class="w-9/12 flex flex-col">
+                            <span class="font-bold uppercase">HTML Fundamentals course</span>
+                            <span class="italic mb-3 underline"><a href="https://www.sololearn.com/en/">Sololearn</a></span>
+                            <span class="text-justify">W styczniu 2018 roku ukończyłem darmowy kurs z HTML na platformie Sololearn.</span>
+                        </div>
                     </div>
                 </div>
             </div>
+            <a href="#section-5">
+                <button class="w-56 h-12 mb-12 bg-background-color-2 border hover:bg-background-color-1 hover:text-black hover:border-black transition duration-300 ease-in-out text-white uppercase"><i class="fa-solid fa-angles-down"></i></button>
+            </a>
         </section>
         <section id="section-5" class="w-screen h-auto flex flex-row bg-background-color-1 text-black">
             <div class="w-2/6 flex flex-row justify-start mt-16 pl-32">
                 <span class="w-4/6 text-5xl font-bold">Umiejętności i kompetencje</span>
             </div>
-            <div class="w-4/6 flex flex-col mt-16">
-                <div class="flex flex-col">
+            <div class="w-4/6 h-10/12 flex flex-col mt-16">
+                <div class="h-10/12 flex flex-col">
                     <span class="font-bold uppercase mb-6">Umiejętności techniczne</span>
-                    <div class="w-10/12 text-justify mb-6">
-                        <div class="flex flex-row justify-around items-center mb-6">
-                            <div class="w-3/5 flex flex-col">
-                                <span class="font-semibold italic">HTML5</span>
-                                <span>HTML5 to język znaczników używany do strukturyzacji i prezentacji dokumentów hipertekstowych w Internecie. Jest piątą i ostatnią ważną wersją HTML, obecnie emerytowaną rekomendacją W3C. HTML5 ma na celu poprawę języka, zachowanie czytelności dla ludzi i spójności dla komputerów.</span>
+                    <div class="w-10/12 h-10/12 flex flex-row text-justify mb-6">
+                        <div class="flex flex-col">
+                            <div id="slide-1" class="slide flex flex-col">
+                                <div class="flex flex-row justify-around items-center mb-6">
+                                    <div class="w-3/5 flex flex-col">
+                                        <span class="font-semibold italic">HTML5</span>
+                                        <span>HTML5 to język znaczników używany do strukturyzacji i prezentacji dokumentów hipertekstowych w Internecie. Jest piątą i ostatnią ważną wersją HTML, obecnie emerytowaną rekomendacją W3C. HTML5 ma na celu poprawę języka, zachowanie czytelności dla ludzi i spójności dla komputerów.</span>
+                                    </div>
+                                    <div class="w-2/5 flex justify-center">
+                                        <img class="w-1/4" src="./img/HTML5_Logo.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="flex flex-row justify-around items-center mb-6">
+                                    <div class="w-3/5 flex flex-col">
+                                        <span class="font-semibold italic">CSS3</span>
+                                        <span>CSS3 to język opisujący sposób prezentacji graficznej elementów na stronie internetowej. W połączeniu z językiem HTML5 tworzy środowisko umożliwiające stworzenie rozbudowanych i atrakcyjnych stron internetowych.</span>
+                                    </div>
+                                    <div class="w-2/5 flex justify-center">
+                                        <img class="w-1/4" src="./img/w3_css-official.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="flex flex-row justify-around items-center mb-6">
+                                    <div class="w-3/5 flex flex-col">
+                                        <span class="font-semibold italic">RWD</span>
+                                        <span>Responsive Web Design (RWD) to podejście projektowe, które umożliwia tworzenie stron internetowych, które wyglądają dobrze na różnych urządzeniach. Dzięki HTML i CSS strony automatycznie dostosowują się do różnych rozmiarów ekranów i widoków.</span>
+                                    </div>
+                                    <div class="w-2/5 flex justify-center">
+                                        <img class="w-1/4" src="./img/responsive-svgrepo-com.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="flex flex-row justify-around items-center mb-6">
+                                    <div class="w-3/5 flex flex-col">
+                                        <span class="font-semibold italic">Tailwind CSS</span>
+                                        <span>Tailwind CSS to framework CSS, który pozwala na szybkie tworzenie nowoczesnych stron internetowych, bez konieczności opuszczania kodu HTML. Zamiast tworzenia oddzielnych plików CSS, w Tailwindzie korzysta się z klas bezpośrednio w kodzie HTML.</span>
+                                    </div>
+                                    <div class="w-2/5 flex justify-center">
+                                        <img class="w-1/4" src="./img/tailwindcss.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="flex flex-row justify-around items-center mb-6">
+                                    <div class="w-3/5 flex flex-col">
+                                        <span class="font-semibold italic">Bootstrap</span>
+                                        <span>Bootstrap to najpopularniejszy framework HTML, CSS i JavaScript do tworzenia responsywnych i przyjaznych dla urządzeń mobilnych stron internetowych. Jest darmowy do pobrania i użytkowania.</span>
+                                    </div>
+                                    <div class="w-2/5 flex justify-center">
+                                        <img class="w-1/4" src="./img/bootstrap-5-1.svg" alt="">
+                                    </div>
+                                </div>
                             </div>
-                            <div class="w-2/5 flex justify-center">
-                                <img class="w-1/4" src="./img/HTML5_Logo.svg" alt="">
+                            <div id="slide-2" class="slide flex-col">
+                                <div class="flex flex-row justify-around items-center mb-6">
+                                    <div class="w-3/5 flex flex-col">
+                                        <span class="font-semibold italic">JavaScript</span>
+                                        <span>JavaScript to najpopularniejszy język programowania na świecie. Jest używany głównie do tworzenia interaktywnych stron internetowych.</span>
+                                    </div>
+                                    <div class="w-2/5 flex justify-center">
+                                        <img class="w-1/4" src="./img/logo-javascript.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="flex flex-row justify-around items-center mb-6">
+                                    <div class="w-3/5 flex flex-col">
+                                        <span class="font-semibold italic">C#</span>
+                                        <span>C# to nowoczesny, innowacyjny i wieloplatformowy język programowania. Jest używany do tworzenia aplikacji na platformie .NET.</span>
+                                    </div>
+                                    <div class="w-2/5 flex justify-center">
+                                        <img class="w-1/4" src="./img/c--4.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="flex flex-row justify-around items-center mb-6">
+                                    <div class="w-3/5 flex flex-col">
+                                        <span class="font-semibold italic">RestAPI</span>
+                                        <span>REST API (Representational State Transfer) to styl architektoniczny wykorzystywany do projektowania interfejsów API za pomocą protokołu HTTP.</span>
+                                    </div>
+                                    <div class="w-2/5 flex justify-center">
+                                        <img class="w-1/4" src="./img/rest-api-icon.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="flex flex-row justify-around items-center mb-6">
+                                    <div class="w-3/5 flex flex-col">
+                                        <span class="font-semibold italic">MySQL</span>
+                                        <span>MySQL to popularny system zarządzania bazą danych (DBMS), który znajduje szerokie zastosowanie w tworzeniu aplikacji internetowych.</span>
+                                    </div>
+                                    <div class="w-2/5 flex justify-center">
+                                        <img class="w-1/4" src="./img/mysql-logo.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="flex flex-row justify-around items-center mb-6">
+                                    <div class="w-3/5 flex flex-col">
+                                        <span class="font-semibold italic">SQL</span>
+                                        <span>SQL (Structured Query Language) to strukturalny oraz deklaratywny język zapytań. Jest używany do tworzenia, modyfikowania relacyjnych baz danych oraz do umieszczania i pobierania danych z tych baz. Decyzję o sposobie przechowywania i pobrania danych pozostawia się systemowi zarządzania bazą danych (DBMS).</span>
+                                    </div>
+                                    <div class="w-2/5 flex justify-center">
+                                        <img class="w-1/4" src="./img/Sql_data_base_with_logo.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="slide-3" class="slide flex-col">
+                                <div class="flex flex-row justify-around items-center mb-6">
+                                    <div class="w-3/5 flex flex-col">
+                                        <span class="font-semibold italic">Git</span>
+                                        <span>Git to wolny i otwarty system kontroli wersji, który umożliwia skuteczne zarządzanie projektami o różnej skali.</span>
+                                    </div>
+                                    <div class="w-2/5 flex justify-center">
+                                        <img class="w-1/4" src="./img/git.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="flex flex-row justify-around items-center mb-6">
+                                    <div class="w-3/5 flex flex-col">
+                                        <span class="font-semibold italic">GitHub</span>
+                                        <span>GitHub to najważniejsza platforma dla programistów, umożliwiająca rozwijanie oprogramowania, współpracę i zabezpieczanie projektów.</span>
+                                    </div>
+                                    <div class="w-2/5 flex justify-center">
+                                        <img class="w-1/4" src="./img/github-2.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="flex flex-row justify-around items-center mb-6">
+                                    <div class="w-3/5 flex flex-col">
+                                        <span class="font-semibold italic">Figma</span>
+                                        <span>Figma to platforma, która umożliwia zespołom projektowanie, prototypowanie, rozwijanie i zbieranie opinii na temat produktów w jednym miejscu. Oferuje narzędzia do współtworzenia, wyrównywania i standaryzacji systemów projektowych, a także nową przestrzeń dla programistów do tłumaczenia projektów na kod. Figma działa w chmurze, co ułatwia dostęp do projektów z dowolnego miejsca i urządzenia.</span>
+                                    </div>
+                                    <div class="w-2/5 flex justify-center">
+                                        <img class="w-1/4" src="./img/figma-5.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="flex flex-row justify-around items-center mb-6">
+                                    <div class="w-3/5 flex flex-col">
+                                        <span class="font-semibold italic">Postman</span>
+                                        <span>Postman to platforma dla programistów, która ułatwia testowanie, projektowanie, dokumentowanie i zarządzanie interfejsami API.</span>
+                                    </div>
+                                    <div class="w-2/5 flex justify-center">
+                                        <img class="w-1/4" src="./img/postman.svg" alt="">
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="flex flex-row justify-around items-center mb-6">
-                            <div class="w-3/5 flex flex-col">
-                                <span class="font-semibold italic">CSS3</span>
-                                <span>CSS3 to język opisujący sposób prezentacji graficznej elementów na stronie internetowej. W połączeniu z językiem HTML5 tworzy środowisko umożliwiające stworzenie rozbudowanych i atrakcyjnych stron internetowych.</span>
-                            </div>
-                            <div class="w-2/5 flex justify-center">
-                                <img class="w-1/4" src="./img/w3_css-official.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="flex flex-row justify-around items-center mb-6">
-                            <div class="w-3/5 flex flex-col">
-                                <span class="font-semibold italic">RWD</span>
-                                <span>Responsive Web Design (RWD) to podejście projektowe, które umożliwia tworzenie stron internetowych, które wyglądają dobrze na różnych urządzeniach. Dzięki HTML i CSS strony automatycznie dostosowują się do różnych rozmiarów ekranów i widoków.</span>
-                            </div>
-                            <div class="w-2/5 flex justify-center">
-                                <img class="w-1/4" src="./img/responsive-svgrepo-com.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="flex flex-row justify-around items-center mb-6">
-                            <div class="w-3/5 flex flex-col">
-                                <span class="font-semibold italic">Tailwind CSS</span>
-                                <span>Tailwind CSS to framework CSS, który pozwala na szybkie tworzenie nowoczesnych stron internetowych, bez konieczności opuszczania kodu HTML. Zamiast tworzenia oddzielnych plików CSS, w Tailwindzie korzysta się z klas bezpośrednio w kodzie HTML.</span>
-                            </div>
-                            <div class="w-2/5 flex justify-center">
-                                <img class="w-1/4" src="./img/tailwindcss.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="flex flex-row justify-around items-center mb-6">
-                            <div class="w-3/5 flex flex-col">
-                                <span class="font-semibold italic">Bootstrap</span>
-                                <span>Bootstrap to najpopularniejszy framework HTML, CSS i JavaScript do tworzenia responsywnych i przyjaznych dla urządzeń mobilnych stron internetowych. Jest darmowy do pobrania i użytkowania.</span>
-                            </div>
-                            <div class="w-2/5 flex justify-center">
-                                <img class="w-1/4" src="./img/bootstrap-5-1.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="flex flex-row justify-around items-center mb-6">
-                            <div class="w-3/5 flex flex-col">
-                                <span class="font-semibold italic">JavaScript</span>
-                                <span>JavaScript to najpopularniejszy język programowania na świecie. Jest używany głównie do tworzenia interaktywnych stron internetowych.</span>
-                            </div>
-                            <div class="w-2/5 flex justify-center">
-                                <img class="w-1/4" src="./img/logo-javascript.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="flex flex-row justify-around items-center mb-6">
-                            <div class="w-3/5 flex flex-col">
-                                <span class="font-semibold italic">C#</span>
-                                <span>C# to nowoczesny, innowacyjny i wieloplatformowy język programowania. Jest używany do tworzenia aplikacji na platformie .NET.</span>
-                            </div>
-                            <div class="w-2/5 flex justify-center">
-                                <img class="w-1/4" src="./img/c--4.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="flex flex-row justify-around items-center mb-6">
-                            <div class="w-3/5 flex flex-col">
-                                <span class="font-semibold italic">RestAPI</span>
-                                <span>REST API (Representational State Transfer) to styl architektoniczny wykorzystywany do projektowania interfejsów API za pomocą protokołu HTTP.</span>
-                            </div>
-                            <div class="w-2/5 flex justify-center">
-                                <img class="w-1/4" src="./img/rest-api-icon.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="flex flex-row justify-around items-center mb-6">
-                            <div class="w-3/5 flex flex-col">
-                                <span class="font-semibold italic">MySQL</span>
-                                <span>MySQL to popularny system zarządzania bazą danych (DBMS), który znajduje szerokie zastosowanie w tworzeniu aplikacji internetowych.</span>
-                            </div>
-                            <div class="w-2/5 flex justify-center">
-                                <img class="w-1/4" src="./img/mysql-logo.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="flex flex-row justify-around items-center mb-6">
-                            <div class="w-3/5 flex flex-col">
-                                <span class="font-semibold italic">SQL</span>
-                                <span>SQL (Structured Query Language) to strukturalny oraz deklaratywny język zapytań. Jest używany do tworzenia, modyfikowania relacyjnych baz danych oraz do umieszczania i pobierania danych z tych baz. Decyzję o sposobie przechowywania i pobrania danych pozostawia się systemowi zarządzania bazą danych (DBMS).</span>
-                            </div>
-                            <div class="w-2/5 flex justify-center">
-                                <img class="w-1/4" src="./img/Sql_data_base_with_logo.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="flex flex-row justify-around items-center mb-6">
-                            <div class="w-3/5 flex flex-col">
-                                <span class="font-semibold italic">Git</span>
-                                <span>Git to wolny i otwarty system kontroli wersji, który umożliwia skuteczne zarządzanie projektami o różnej skali.</span>
-                            </div>
-                            <div class="w-2/5 flex justify-center">
-                                <img class="w-1/4" src="./img/git.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="flex flex-row justify-around items-center mb-6">
-                            <div class="w-3/5 flex flex-col">
-                                <span class="font-semibold italic">GitHub</span>
-                                <span>GitHub to najważniejsza platforma dla programistów, umożliwiająca rozwijanie oprogramowania, współpracę i zabezpieczanie projektów.</span>
-                            </div>
-                            <div class="w-2/5 flex justify-center">
-                                <img class="w-1/4" src="./img/github-2.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="flex flex-row justify-around items-center mb-6">
-                            <div class="w-3/5 flex flex-col">
-                                <span class="font-semibold italic">Figma</span>
-                                <span>Figma to platforma, która umożliwia zespołom projektowanie, prototypowanie, rozwijanie i zbieranie opinii na temat produktów w jednym miejscu. Oferuje narzędzia do współtworzenia, wyrównywania i standaryzacji systemów projektowych, a także nową przestrzeń dla programistów do tłumaczenia projektów na kod. Figma działa w chmurze, co ułatwia dostęp do projektów z dowolnego miejsca i urządzenia.</span>
-                            </div>
-                            <div class="w-2/5 flex justify-center">
-                                <img class="w-1/4" src="./img/figma-5.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="flex flex-row justify-around items-center mb-6">
-                            <div class="w-3/5 flex flex-col">
-                                <span class="font-semibold italic">Postman</span>
-                                <span>Postman to platforma dla programistów, która ułatwia testowanie, projektowanie, dokumentowanie i zarządzanie interfejsami API.</span>
-                            </div>
-                            <div class="w-2/5 flex justify-center">
-                                <img class="w-1/4" src="./img/postman.svg" alt="">
-                            </div>
+                        <div class="w-2/12 flex flex-col justify-center">
+                            <span id="sort-up"><i class="fa-solid fa-sort-up"></i></span>
+                            <span id="sort-down"><i class="fa-solid fa-sort-down"></i></span>
                         </div>
                     </div>
                 </div>
