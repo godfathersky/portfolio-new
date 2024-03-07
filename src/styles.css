@@ -7,14 +7,20 @@ html{
 }
 
 .slide{
-    transition: opacity 1s ease-in-out;
     opacity: 0;
     height: 0;
     overflow: hidden;
 }
 
 .slide.flex{
-    transition: opacity 1s ease-in-out;
     opacity: 1;
     height: auto;
+}
+
+.change-category{
+    font-weight: normal;
+}
+
+.change-category.active{
+    font-weight: bold;
 }
