@@ -81,18 +81,29 @@ document.addEventListener('DOMContentLoaded', function() {
     };
     SwapSlidesOfTechSkills();
 
-    function TypeWriterText(text, speed){
-        const typeWriter = document.getElementById('type-writer');
+    function TypeWriterText(text, text2, speed){
+        const typeWriterName = document.getElementById('type-writer-name');
+        const typeWriterJobTitle = document.getElementById('type-writer-job-title');
         let i = 0;
+        let j = 0;
         
         function typeWriterEffect() {
             if (i < text.length) {
-                typeWriter.innerHTML += text.charAt(i);
+                typeWriterName.innerHTML += text.charAt(i);
                 i++;
                 setTimeout(typeWriterEffect, speed);
             }
         }
         typeWriterEffect();
+
+        function typeWriterEffect2() {
+            if (j < text2.length) {
+                typeWriterJobTitle.innerHTML += text2.charAt(j);
+                j++;
+                setTimeout(typeWriterEffect2, speed);
+            }
+        }
+        typeWriterEffect2();
     }
-    TypeWriterText('Junior Frontend Developer', 100);
+    TypeWriterText('Robert Zima','Junior Frontend Developer', 150);
 });
