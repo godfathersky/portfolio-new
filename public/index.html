@@ -6,7 +6,8 @@
     <meta name="description" content="Portfolio początkującego web developera (junior frontend developer) przedstawiające jego doświadczenie zawodowe i posiadane umiejętności.">
     <meta name="keywords" content="HTML, HTML5, CSS3, Tailwind CSS, JavaScript, Bootstrap, RWD, Responsive Web Design, RestAPI, C#, MySQL, SQL, git, GitHub, Figma, Postman, programming, web developing, tworzenie stron internetowych, frontend, backend, bazy danych, portfolio, wizytówka, programowanie, aplikacje webowe, aplikacje internetowe, aplikacje desktopowe, projektowanie stron internetowych">
     <meta name="author" content="Robert Zima">
-    <link rel="stylesheet" href="./styles.css" type="text/css">
+    <link rel="preload" href="./styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./styles.css"></noscript>
     <script src="https://kit.fontawesome.com/093e9ed2f3.js" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
     <title>Robert Zima - Junior Frontend Dev</title>
@@ -48,13 +49,13 @@
                         <div class="w-full xl:w-9/12 flex flex-col">
                             <span class="font-bold uppercase">Praktyka - Junior Frontend Developer</span>
                             <span class="italic mb-3 underline"><a href="https://spacenext.eu">SpaceNext</a></span>
-                            <ul class="list-disc">
-                                <span class="font-bold">Wykonywane zadania:</span>
-                                <li class="ml-5">Tworzenie wizualizacji aplikacji w narzędziu Figma</li>
-                                <li class="ml-5">Tworzenie aplikacji przy wykorzystaniu podstawowych technologii HTML, CSS, Tailwind CSS, JavaScript oraz C#.</li>
-                                <li class="ml-5">Tworzenie interfejsów API.</li>
-                                <li class="ml-5">Testowanie stworzonych punktów końcowych za pomocą narzędzia Postman.</li>
-                                <li class="ml-5">Dostosowanie aplikacji zgodnie z zasadami RWD.</li>
+                            <ul>
+                                <li class="font-bold">Wykonywane zadania:</li>
+                                <li class="ml-5 list-disc">Tworzenie wizualizacji aplikacji w narzędziu Figma</li>
+                                <li class="ml-5 list-disc">Tworzenie aplikacji przy wykorzystaniu podstawowych technologii HTML, CSS, Tailwind CSS, JavaScript oraz C#.</li>
+                                <li class="ml-5 list-disc">Tworzenie interfejsów API.</li>
+                                <li class="ml-5 list-disc">Testowanie stworzonych punktów końcowych za pomocą narzędzia Postman.</li>
+                                <li class="ml-5 list-disc">Dostosowanie aplikacji zgodnie z zasadami RWD.</li>
                             </ul>
                         </div>
                     </div>
@@ -65,11 +66,11 @@
                         <div class="w-full xl:w-9/12 flex flex-col">
                             <span class="font-bold uppercase">Praktyka - Junior Frontend Developer</span>
                             <span class="italic mb-3 underline"><a href="https://xopero.com/pl/">Xopero Software</a></span>
-                            <ul class="list-disc">
-                                <span class="font-bold">Wykonywane zadania:</span>
-                                <li class="ml-5">Tworzenie wizualizacji aplikacji w narzędziu Figma.</li>
-                                <li class="ml-5">Tworzenie aplikacji przy wykorzystaniu podstawowych technologii HTML, CSS, JavaScript na podstawie dostarczonego projektu wizualnego.</li>
-                                <li class="ml-5">Dostosowanie aplikacji zgodnie z zasadami RWD.</li>
+                            <ul>
+                                <li class="font-bold">Wykonywane zadania:</li>
+                                <li class="ml-5 list-disc">Tworzenie wizualizacji aplikacji w narzędziu Figma.</li>
+                                <li class="ml-5 list-disc">Tworzenie aplikacji przy wykorzystaniu podstawowych technologii HTML, CSS, JavaScript na podstawie dostarczonego projektu wizualnego.</li>
+                                <li class="ml-5 list-disc">Dostosowanie aplikacji zgodnie z zasadami RWD.</li>
                             </ul>
                         </div>
                     </div>
@@ -368,9 +369,9 @@
                 <div class="w-full xl:w-2/6 xl:h-1/6 flex flex-col items-center xl:items-start xl:justify-start xl:pl-32">
                     <span class="text-2xl font-bold uppercase mb-6">Nawiąż ze mną kontakt&nbsp;<i class="fa-solid fa-face-smile"></i></span>
                     <div class="w-full xl:w-5/6 flex flex-row justify-center xl:justify-start">
-                        <a href="https://www.facebook.com/godfatherskyy" target="_blank"><i class="fa-brands fa-facebook fa-2xl pr-6" style="color: #000000;"></i></a>
-                        <a href="https://www.linkedin.com/in/robert-zima-35807a158/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl pl-6 pr-6" style="color: #000000;"></i></a>
-                        <a href="mailto:zimarobert0@gmail.com"><i class="fa-solid fa-envelope fa-2xl pl-6" style="color: #000000;"></i></a>
+                        <a href="https://www.facebook.com/godfatherskyy" target="_blank" aria-label="Tutaj znajdziesz mój profil na facebooku."><i class="fa-brands fa-facebook fa-2xl pr-6" style="color: #000000;"></i></a>
+                        <a href="https://www.linkedin.com/in/robert-zima-35807a158/" target="_blank" aria-label="Tutaj znajdziesz mój profil na linkedin."><i class="fa-brands fa-linkedin fa-2xl pl-6 pr-6" style="color: #000000;"></i></a>
+                        <a href="mailto:zimarobert0@gmail.com" aria-label="Tutaj znajdziesz mój adres email."><i class="fa-solid fa-envelope fa-2xl pl-6" style="color: #000000;"></i></a>
                     </div>
                 </div>
             </div>
